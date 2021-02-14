@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Countdown</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Check when your next Birthday Comes</h1>
+    <form action="" onsubmit="return birthDay()">
+        <input type="date" name="" id="userBD">
+        <!-- <input type="submit" name="submit" value="submit" > -->
+        <button>Check</button>
+    </form>
+    <div id="birthdiv">
+        <div>
+            <span class="months" id="month"></span>
+            <div class="smalltext">Months</div>
+        </div>
+        <div>
+            <span class="days" id="day"></span>
+            <div class="smalltext">Days</div>
+        </div>
+        <div>
+            <span class="hours" id="hour"></span>
+            <div class="smalltext">Hours</div>
+        </div>
+        <div>
+            <span class="minutes" id="minute"></span>
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+            <span class="seconds" id="second"></span>
+            <div class="smalltext">Seconds</div>
+        </div>
+    </div>
+
+    <p id="demo"></p>
+
+    <script src="app.js">
+    </script>
+</body>
+
+</html>

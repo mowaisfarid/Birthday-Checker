@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+input{
+    padding-top: 5px;
+    width: 20em;
+    height: 5vh;
+    border-radius: 3px;
+
+}
+button{
+    width: 5em;
+    height: 6vh;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#birthdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+#birthdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    background: gray;
+    display: inline-block;
+}
+
+#birthdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: gray;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
